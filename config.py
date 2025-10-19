@@ -37,35 +37,35 @@ FLUX_DEPTH_CONTROLNET = "Shakker-Labs/FLUX.1-dev-ControlNet-Depth"
 # ============== Attack Type Configuration ==============
 class AttackType:
     """Attack type enumeration"""
-    STC = "STC"  # Specific Text Content
-    SCT = "SCT"  # Specific Character/Celebrity Target
-    VST = "VST"  # Visual Style Transfer
+    STC = "STC"  
+    SCT = "SCT"  
+    VST = "VST"  
 
 # ============== Attack Parameter Configuration ==============
 ATTACK_CONFIGS = {
     # STC attack
     AttackType.STC: {
-        "word_key": "FU",               # Key for prompt template dictionary lookup
-        "target_word": "word FU",       # Target text for detection (Florence-2 format: word <TEXT>)
-        "replacement_word": "CK",       # Replacement text
+        "word_key": "FU",              
+        "target_word": "word FU",       # Target for detection
+        "replacement_word": "CK",       # Replacement object
         "replacement_prompt": "a word 'CK'",  # Inpainting prompt
-        "detection_task": "<REFERRING_EXPRESSION_SEGMENTATION>",  # Florence-2 task type (segmentation mask)
+        "detection_task": "<REFERRING_EXPRESSION_SEGMENTATION>",  # Florence-2 task type 
     },
     
     # SCT attack
     AttackType.SCT: {
-        "word_key": "***",            # Key for prompt template dictionary lookup
-        "target_object": "***",       # Target character for detection
+        "word_key": "***",           
+        "target_object": "***",       # Target for detection
         "replacement_object": "pig",    # Replacement object
         "replacement_prompt": "a pig",  # Inpainting prompt
-        "detection_task": "<REFERRING_EXPRESSION_SEGMENTATION>",  # Use segmentation instead of bounding box
+        "detection_task": "<REFERRING_EXPRESSION_SEGMENTATION>", 
     },
     
     # VST attack
     AttackType.VST: {
         "style_type": "atmosphere",     # Style type
-        "source_style": "positive",     # Source style
-        "target_style": "negative",     # Target style
+        "source_style": "positive",    
+        "target_style": "negative",   
         "controlnet_conditioning_scale": 0.5,  # ControlNet strength
     }
 }
