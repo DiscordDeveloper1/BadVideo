@@ -172,9 +172,11 @@ This project is intended for research purposes only. Any use of this framework f
 
 If you find this work useful in your research, please consider citing our paper:
 
-    @inproceedings{wang2025badvideo,
-      title={BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation},
-      author={Ruotong Wang and Mingli Zhu and Jiarong Ou and Rui Chen and Xin Tao and Pengfei Wan and Baoyuan Wu},
-      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-      year={2025}
-    }
+    @InProceedings{Wang_2025_ICCV,
+    author    = {Wang, Ruotong and Zhu, Mingli and Ou, Jiarong and Chen, Rui and Tao, Xin and Wan, Pengfei and Wu, Baoyuan},
+    title     = {BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {19075-19084}
+}
